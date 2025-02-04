@@ -1,1 +1,39 @@
 theme: minima
+# 🟢 GREEN SNAKE
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Green_Snake_Vector.svg" width="200">
+</p>
+
+أبسط لعبة دودة كلاسيكية بلون أخضر نابض بالحياة!
+
+---
+
+## ⚡ التشغيل السريع
+
+```bash
+git clone https://github.com/username/green-snake.git
+cd green-snake
+python game.py
+```
+
+---
+
+## 🕹️ التحكم
+- **أسفل الكيبورد**: ← → ↑ ↓  
+- **المسافة**: إيقاف/استئناف  
+- **Esc**: خروج
+
+---
+
+```python
+# رمز بسيط من اللعبة
+class Snake:
+    def __init__(self):
+        self.body = [(100, 100)]
+        self.direction = (1, 0)
+```
+
+---
+
+📜 **الترخيص**: [MIT](LICENSE)
